@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+{% block title %}게시판{% endblock %}
+{% block head %}
+<style>
+canvas[data-class]{
+    width:600px;
+    height:427px;
+}
+
+.item_none{
+    height:80px;
+    margin-left:20px;
+    height:40px;
+}
+
+label[for=eyes_01], label[for=eyes_02], label[for=nose_01], label[for=nose_02], label[for=mouth_01], label[for=mouth_02] {
+    margin-left:20px;
+    height:inherit;
+}
+.eyes_01{
+    width:100px;
+    height:40px;
+}
+.eyes_02{
+    width:50px;
+    height:40px;
+}
+.nose_01{
+    width:30px;
+    height:50px;
+}
+.nose_02{
+    width:30px;
+    height:30px;
+}
+.mouth_01{
+    width:50px;
+    height:30px;
+}
+.mouth_02{
+    width:60px;
+    height:30px;
+}
+
+</style>
+
+{% endblock %}
+
+{% block content %}
+    <br><br>
+    <form action="" method="post">
+        {% csrf_token %}
+        {{form.as_ul}}
+        <input type="submit" value="등록" class="btn btn-info">
+    </form>
+{% endblock %}

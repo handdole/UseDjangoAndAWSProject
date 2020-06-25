@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block title %}게시판{% endblock %}
+{% block head %}
+{% endblock %}
+{% block content %}
+    <br><br>
+    <table align="center" class="table table-condensed">
+    <tr>
+        <td>제목</td>
+        <td>{{ object.title }}</td>
+    </tr>
+    <tr>
+        <td>내용</td>
+        <td>{{ object.content }}</td>
+    </tr>
+    <tr>
+        <td colspan="2">작성자 : {{ object.writer }}</td>
+    </tr>
+    </table>
+    <div align="right">
+    <a href="{% url 'bbs:selectAll' %}" class="btn btn-info">뒤로가기</a>
+    <a href="{% url 'bbs:update' pk=object.id %}" class="btn btn-info">수정</a>
+    <a href="{% url 'bbs:delete' %}?id={{ object.id }}" class="btn btn-info">삭제</a></div>
+{% endblock %}
