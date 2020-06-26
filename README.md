@@ -20,7 +20,11 @@ AWS에 S3 서비스와 RDS를 사용하여 Cloud에 데이터 및 여러 종류�
 
 # 로그인 화면 
 
-![이미지 013](https://user-images.githubusercontent.com/60869806/85813987-c15cf800-b79f-11ea-8bb7-aee5a46f1606.png)
+
+![이미지 014](https://user-images.githubusercontent.com/60869806/85813990-c28e2500-b79f-11ea-9b4a-cb1730a6c91f.png)
+
+
+
 
 ---------------------------------
 
@@ -28,7 +32,7 @@ AWS에 S3 서비스와 RDS를 사용하여 Cloud에 데이터 및 여러 종류�
 # 맵 활용 주제별 데이터 시각화 화면
 
 
-![이미지 014](https://user-images.githubusercontent.com/60869806/85813990-c28e2500-b79f-11ea-9b4a-cb1730a6c91f.png)
+![이미지 013](https://user-images.githubusercontent.com/60869806/85813987-c15cf800-b79f-11ea-8bb7-aee5a46f1606.png)
 
 
 
